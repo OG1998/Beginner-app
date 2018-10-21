@@ -6,21 +6,47 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     >
+
+
+
     <TextView
-        android:text="Hello World"
-        android:background="@android:color/darker_gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Search Word Here"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="30sp" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:text="Search"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:onClick="onSearchButton"/>
 
-    <TextView
-        android:text="Happy Birthday"
-        android:background="@android:color/darker_gray"
-        android:layout_width="150dp"
-        android:layout_height="75dp"
-        />
 
 
 </RelativeLayout>
+
+
+
+
